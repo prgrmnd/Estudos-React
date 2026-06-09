@@ -1,8 +1,13 @@
+import { Display } from "./components/Display";
+
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello, World!</h1>
+    
+    <div>
+      <h1>Contador de curtidas</h1>
+      <Display />
     </div>
+
   );
 }
 
