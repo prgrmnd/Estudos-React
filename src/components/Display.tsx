@@ -1,7 +1,11 @@
-export function Display() {
+interface DisplayProps {
+    count: number;
+}
+
+export function Display({ count }: DisplayProps) {
     return (    
         <div className="display">
-            <p>Total: 0 curtidas</p>
+            <p>Total: {count} curtidas</p>
         </div>
     );
 }
