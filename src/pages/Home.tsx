@@ -6,9 +6,13 @@ export default function Home() {
         <div className="home">
             <h1>Bem-vindo à página inicial!</h1>
             <p>Esta é a página de boas-vindas do nosso aplicativo React.</p>
-            <Botao text="Clique aqui" />
-            <CamposPesquisa />
+            <div className="flex items-center justify-between">
+                <CamposPesquisa />
+                <Botao text="Clique aqui" />
+            </div>
+
         </div>
+
 
     );
 }
